@@ -1,0 +1,12 @@
+INSERT INTO questions VALUES
+("Name of the screen that recognizes touch input is","Recog screen","Point Screen","Touch Screen","Android Screen",3,1,"Computer Basics"),
+("Identify the device through which data and instructions are entered into a computer","Software","Output device","Input device","Memory",3,2,"Computer Basics"),
+("Computer Moniter is also known as","DVU","UVD","VDU","CCTV",3,3,"Computer Basics"),
+("Arrange in ascending order the units of memory TB, KB, GB, MB","TB>MB>GB>KB","MB>GB>TB>KB","TB>GB>MB>KB","GB>MB>KB>TB",3,4,"Computer Basics"),
+("Which one of these stores more data than a DVD?","CD Rom","Floppy","Blue Ray Disk","Red Ray Disk",3,5,"Computer Basics"),
+("The output shown on the computer monitor is called","VDU","Hard Copy","Soft Copy","Screen Copy",3,6,"Computer Basics"),
+("Eight Bits make up a","byte","megabyte","kilobyte","None",1,7,"Computer Basics"),
+("Which one is the result of the output given by a computer","Data","Instruction","Information","Excursion",3,8,"Computer Basics"),
+("Which one of these also known as read/write memory?","ROM","RAM","DVD","Hard Disk",2,9,"Computer Basics"),
+("The printed output from a computer is called","Copy","Soft Copy","Hard Copy","Paper",3,10,"Computer Basics")
+;

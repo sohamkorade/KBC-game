@@ -1,0 +1,5 @@
+To download MySQL visit:
+    https://dev.mysql.com/downloads/mysql/
+
+To install MySQL Connector for Python type this into the console:
+    pip install mysql-connector-python

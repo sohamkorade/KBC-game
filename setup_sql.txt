@@ -1,0 +1,27 @@
+/* Drops old database */
+DROP DATABASE gamedb;
+
+/* Creates database */
+CREATE DATABASE gamedb;
+USE gamedb;
+
+/* Creates table for storing highscores */
+CREATE TABLE scores (name VARCHAR(255),
+                     score INT,
+                     level INT,
+                     topic VARCHAR(255));
+
+/* Inserts dummy data into highscores */
+INSERT INTO scores VALUES ("Player 1",10,1),
+                          ("Player 2",50,2),
+                          ("Player 3",100,3);
+
+/* Creates table for storing questions */
+CREATE TABLE questions (question VARCHAR(511),
+                        option1 VARCHAR(255),
+                        option2 VARCHAR(255),
+                        option3 VARCHAR(255),
+                        option4 VARCHAR(255),
+                        answer INT,
+                        level INT,
+                        topic VARCHAR(255));
